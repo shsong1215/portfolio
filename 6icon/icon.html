@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Christine Song">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christine Song</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="style-2.css" type="text/css" charset="utf-8" />
+
+
+
+  <!-- Javascript -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow88.js"></script>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+<div id="container">
+  <div id="header">
+    <button class="js-menu menu" type="button">
+    <span class="bar"></span>
+</button>
+
+<nav>
+    <ul>
+        <li class="works1">Works</li>
+        <li class="work-title">Bon Museum</li>
+        <li class="work-title">Talent</li>
+        <li class="work-title">Musie</li>
+        <li class="work-title">Tracpark</li>
+        <li class="work-title">Fabric.Me</li>
+        <li class="work-title">Icon Design</li>
+        <li class="work-title">Sister Corita</li>
+        <li class="footer">© Christine Song 2017 All rights reserved</li>
+
+    </ul>
+</nav>
+
+
+   	<h1><a href="../home/main-1.html">Christine Song</a></h1>
+
+		<div class="connect"><a href="https://www.linkedin.com/in/christineenfp">Connect</a></div>
+
+    <div class="about"><a href="../about/about.html">About</a></div>
+
+  </div>
+
+<div class="bonimages" align="center">
+  <p class="bonintro">
+  <img id="bon1" src="imgs/icons-59.png">
+  <h4> PROJECT BACKGROUND </h4>
+  <h2> Icon Design </h2>
+  <p class="project-description">
+  I am personally very interested in usage of icons.
+  My personal interest led me to illustrate icons.
+</br>
+  These Icons are made with 128px canvas with 4px line width.
+  All are uploaded on the nounproject.
+  </p>
+  <!-- <img src="imgs/icons-58.png"> -->
+  <img src="imgs/icons-55.png">
+  <img src="imgs/icons-60.png">
+  <img src="imgs/icons-56.png">
+  <img src="imgs/icons-61.png">
+  <img src="imgs/icons-57.png">
+  <img src="imgs/icons-62.png">
+
+
+  </p>
+</div>
+
+
+
+
+
+<script>
+var isActive = false;
+
+$('.js-menu').on('click', function() {
+    if (isActive) {
+        $(this).removeClass('active');
+        $('body').removeClass('menu-open');
+    } else {
+        $(this).addClass('active');
+        $('body').addClass('menu-open');
+    }
+
+    isActive = !isActive;
+});
+</script>
+
+</body>
+
+
+</html>
