@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Christine Song">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Christine Song</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="style-2.css" type="text/css" charset="utf-8" />
+
+
+
+  <!-- Javascript -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow88.js"></script>
+ <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="header">
+      <button class="js-menu menu" type="button">
+        <div id="wrapper"><span class="bar"></span></div>
+      </button>
+
+      <nav>
+          <ul>
+              <li class="works1">Works</li>
+              <a href="../talent/talent.html"><li class="work-title">Talent</li></a>
+              <a href="../musie/musie.html"><li class="work-title">Musie</li></a>
+              <a href="../tracpark/tracpark.html"><li class="work-title">Tracpark</li></a>
+              <a href="../bon/bon.html"><li class="work-title">Bon Museum</li></a>
+              <a href="../bon/bon.html"><li class="work-title">Fabric.Me</li></a>
+              <a href="../bubbles/bubbles.html"><li class="work-title">Bubbles</li></a>
+              <a href="../icon/icon.html"><li class="work-title">Icon Design</li></a>
+              <li class="footer">© Christine Song 2017 All rights reserved</li>
+
+          </ul>
+      </nav>
+
+   	<h1><a href="../../index.html">Christine Song</a></h1>
+
+		<div class="connect"><a href="https://www.linkedin.com/in/christineenfp">Connect</a></div>
+
+    <div class="about"><a href="../about/about.html">About</a></div>
+
+  </div>
+
+<div class="description">
+  <a href="imgs/ChristineSongResume.pdf"><p class="resume"> Resume </p></a>
+  <p class="hello"> Feel free to reach me at </br><span id="email">ssong02@risd.edu! </span></p>
+</div>
+<div class="pictures">
+  <img class="portrait" src="imgs/mee.jpg" />
+  <p class="me" > Hello! I am a Graphic Designer currently studying in Rhode Island School of Design.
+    I love to solve problems through simple and user-centered designs.
+</br>
+</br>
+My current focus is on delivering an experience through screens with systematic and creative approach. I am specialized in UI/UX,
+and icon designs.
+</br>
+</br>
+This portfolio carries variety of work from school, intern, hackathon and personal projects.
+Thanks for visiting and feel free to connect with me!
+</p>
+</div>
+
+
+
+
+<script>
+var isActive = false;
+
+$('.js-menu').on('click', function() {
+    if (isActive) {
+        $(this).removeClass('active');
+        $('body').removeClass('menu-open');
+    } else {
+        $(this).addClass('active');
+        $('body').addClass('menu-open');
+    }
+
+    isActive = !isActive;
+});
+</script>
+
+</body>
+
+
+</html>
